@@ -1,0 +1,13 @@
+/* types.h */
+
+
+#include <stdio.h>
+
+typedef enum {
+	OK, 
+	ERROR_INVALID_FRECUENCY, 
+	ERROR_INVALID_RESISTOR_VALUES, 
+	ERROR_INVALID_INDUCTANCE, 
+	ERROR_INVALID_DATA, 	
+	ERROR_NULL
+} status_t;
